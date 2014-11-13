@@ -5,8 +5,11 @@ El objetivo de esta práctica es utilizar Media Queries para personalizar la apa
 2 horas de clase
 ** Material de la práctica
 Para realizar la práctica se tomará como base los archivos creados en la práctica 2.4 (HTML y CSS).
-** DESCRIPCIÓN TAREAS
+** Desarrollo de la práctica
+Se debe modificar el código CSS del formulario creado en la práctica 2.4 para que el aspecto visual sea el indicado en función del tipo de dispositivo. Debes elegir una resolución apropiada para cada dispositivo (no hace falta que sea exacta al 100%).
+*** Dispositivos móviles
+*** Tabletas
+*** Ordenadores
 ** Resultado a entregar
-  - Instrucciones...
-  - El archivo estará en formato...
-  - El nombre del archivo será de la forma =apellido1-apellido2-nombre-practica1-= (por ejemplo, =prieto-alarcon-pedro-practica1-=).
+- Se deberá realizar una /pull request/ al respositorio de la práctica (https://github.com/interfacesweb/practica_2_5) con el código completo del formulario (HTML y CSS).
+- En el comentario de la /pull request/ se deberá incluir el *nombre y apellidos* del alumno.
