@@ -7,9 +7,32 @@ El objetivo de esta práctica es utilizar Media Queries para personalizar la apa
 Para realizar la práctica se tomará como base los archivos creados en la práctica 2.4 (HTML y CSS).
 ** Desarrollo de la práctica
 Se debe modificar el código CSS del formulario creado en la práctica 2.4 para que el aspecto visual sea el indicado en función del tipo de dispositivo. Debes elegir una resolución apropiada para cada dispositivo (no hace falta que sea exacta al 100%).
+*** Organización de los archivos
+- El archivo HTML debe llamarse ~index.html~.
+- El/los archivo/s CSS puede estar ubicado en cualquier carpeta (siempre que sea accesible por el archivo HTML).
+*** Diseño adaptado
+Debe utilizarse la etiqueta correspondiente para que la página se vea adaptada a todo tipo de dispositivo sin necesidad de realizar zoom.
 *** Dispositivos móviles
+- No deben mostrarse las etiquetas correspondientes a campos ~select~, campos de texto y áreas de texto en pantallas convencionales. Sí que deben mostrarse las etiquetas correspondientes a elementos ~radio~ y ~checkbox~.
+- Deben mostrarse todas las etiquetas en lectores Braille y sintetizadores de voz.
+- El texto de las leyendas debe mostrarse centrado.
+- El color del texto debe ser negro.
+- El color del texto de las leyendas debe ser azul.
+- El ancho de los controles (con la excepción de ~radio~ y ~checkbox~) debe estar adaptado para que ocupe la mayor parte del ancho de la pantalla (se puede dejar algo de margen).
+- El formulario debe aparecer centrado en la pantalla.
 *** Tabletas
+- Las etiquetas de los campos ~select~, campos de texto y áreas de texto deben mostrarse encima de los controles, alineadas al principio de cada control.
+- Las etiquetas de elementos ~radio~ y ~checkbox~ deben mostrarse alineadas a la izquierda, al mismo nivel que los campos de texto.
+- El texto de las leyendas debe mostrarse alineado a la derecha.
+- El color del texto debe ser verde.
+- El color del texto de las leyendas debe ser negro.
+- El ancho de los controles (con la excepción de ~radio~ y ~checkbox~) debe estar adaptado para que ocupe aproximadamente un 70% de la pantalla.
+- El formulario debe aparecer centrado en la pantalla.
 *** Ordenadores
+- Se debe mostrar el formulario con el mismo aspecto que tenía en la práctica 2.4.
+- El formulario debe aparecer centrado en la pantalla.
+*** Comprobación del funcionamiento
+Puedes comprobar la apariencia visual del formulario en función del dispositivo en http://quirktools.com/screenfly/.
 ** Resultado a entregar
 - Se deberá realizar una /pull request/ al respositorio de la práctica (https://github.com/interfacesweb/practica_2_5) con el código completo del formulario (HTML y CSS).
-- En el comentario de la /pull request/ se deberá incluir el *nombre y apellidos* del alumno.
+- En el *comentario* de la /pull request/ se deberá incluir la *url de previsualización de la práctica* (github.io).
