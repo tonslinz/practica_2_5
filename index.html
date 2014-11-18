@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0;">
+    <title>Untitled Document</title>
+	<meta name="Author" content=""/>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<div id="Container">
+    <div id="Cabecera">
+        Máquina de café StarBocks
+    </div>
+    <div id="Cuerpo">
+        <form>
+  <fieldset>
+    <legend>Opciones</legend>
+    <div class="LineaFormulario">
+        <label for="TipoMezcla">Tipo de Mezcla: </label>
+        <select name="TipoMezcla" id="TipoMezcla">
+            <option value="MezclaCasa">Mezcla de la casa</option>
+            <option value="MezclaNoCasa">Mezcla fuera de casa</option>
+        </select>
+    </div>
+    <div class="LineaFormulario">
+        <label for="Natural">Natural </label>
+        <input type="radio" name="NatuOTost" value="Natural">
+    </div>
+    <div class="LineaFormulario">
+        <label for="Tostado">Tostado</label>
+        <input type="radio" name="NatuOTost" value="Tostado">
+    </div>
+  </fieldset>
+  <fieldset>
+    <legend>Extras</legend>
+    <div class="LineaFormulario">
+        <label for="regalo">Para Regalo</label>
+        <input type="checkbox" name="regalo" value="regalo">
+    </div>
+    <div class="LineaFormulario">
+        <label for="catalogo">Incluir catálogo</label>
+        <input type="checkbox" name="catalogo" value="catalogo"> 
+    </div>
+  </fieldset>
+  <fieldset>
+    <legend>Datos de envio</legend>
+    <div class="LineaFormulario">
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+    </div>
+    <div class="LineaFormulario">
+        <label for="direccion">Direccion:</label>
+        <input type="text" name="direccion" id="direccion" placeholder="Direccion">
+    </div>
+    <div clas="LineaFormulario">
+        <label for="ciudad">Ciudad:</label>
+        <input type="text" name="ciudad" id="ciudad" placeholder="Ciudad">
+    </div>
+    <div class="LineaFormulario">
+        <label for="pais">País:</label>
+        <input type="text" name="pais" id="pais" placeholder="País">
+    </div>
+    <div class="LineaFormulario">
+        <label for="CodPostal">Código postal</label>
+        <input type="text" name="CodPostal" id="CodPostal" placeholder="Código Postal">
+    </div>
+  </fieldset>
+  <fieldset>
+    <legend>Información Adicional</legend>
+    <div class="LineaFormulario">
+        <label for="nombre">Nombre: </label>
+        <textarea rows="4" cols="50"  placeholder="Introduzca sus comentarios" cols="40" rows="5">Hola</textarea>
+    </div>       
+  </fieldset>
+    <div class="LineaFormulario">
+        <input class="Bontontramitar" type="submit" value="tramitar"/>
+    </div>
+</form>
+    </div>
+</div>
+</body>
+</html>

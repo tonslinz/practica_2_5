@@ -1,0 +1,59 @@
+body{
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+#Cuerpo{
+    margin: 10px auto;
+    text-align: center;
+    height: auto;
+    padding: 5px;  
+}
+#Container {
+    width: 30%;
+    margin:10px auto;
+    padding: 5px;
+    border: 1px solid #000000;
+}
+.LineaFormulario {
+    width: 100%;
+    margin: 3px 0px;
+}
+#Cabecera{
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+fieldset {
+    text-align: left;
+}
+legend{
+    color: red;
+    font-weight: bold;
+}
+label {
+    width: 30%;
+    text-align: right;
+    margin-right: 10px;
+    float: left;
+}
+textarea{
+    resize: vertical;
+    vertical-align: inherit;
+}
+input, textarea, select{
+    width: 60%;
+    color: red;
+    border-radius: 3px;
+    border: 1px solid #7F7C7C;
+}
+
+input[type="radio"], input[type="checkbox"]{
+    width: 5%;
+}
+.Bontontramitar {
+    width: auto;
+    padding: 0 5px;
+    border-radius: 5px;
+}
