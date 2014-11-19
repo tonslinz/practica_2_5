@@ -81,7 +81,8 @@ input[type="radio"], input[type="checkbox"]{
     label{
         color: darkgreen;
         width: 70%;
-        text-align: left;
+        text-align: center;
+        margin: auto;
     }
     .RadioChecklabel{
         width: 40%;
@@ -97,7 +98,7 @@ input[type="radio"], input[type="checkbox"]{
         width: 20%;
     }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 599px) {
     #Container {
         width: 80%;
         margin:10px auto;
