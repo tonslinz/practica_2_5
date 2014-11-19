@@ -98,7 +98,7 @@ input[type="radio"], input[type="checkbox"]{
         width: 20%;
     }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
     #Container {
         width: 80%;
         margin:10px auto;
