@@ -9,12 +9,6 @@ body{
     height: auto;
     padding: 5px;  
 }
-#Container {
-    width: 30%;
-    margin:10px auto;
-    padding: 5px;
-    border: 1px solid #000000;
-}
 .LineaFormulario {
     width: 100%;
     margin: 3px 0px;
@@ -26,9 +20,10 @@ body{
     margin-top: 20px;
 }
 fieldset {
-    text-align: left;
+    text-align: center;
 }
 legend{
+    text-align: left;
     color: red;
     font-weight: bold;
 }
@@ -56,4 +51,79 @@ input[type="radio"], input[type="checkbox"]{
     width: auto;
     padding: 0 5px;
     border-radius: 5px;
+}
+@media screen and (min-width: 1300px) {
+    #Container {
+        width: 30%;
+        margin:10px auto;
+        padding: 5px;
+        border: 1px solid #000000;
+    }
+}
+@media screen and (max-width: 1299px) {
+    #Container {
+        width: 40%;
+        margin:10px auto;
+        padding: 5px;
+        border: 1px solid #000000;
+    }
+}
+@media screen and (max-width: 1000px) {
+    #Container {
+        width: 50%;
+        margin:10px auto;
+        padding: 5px;
+        border: 1px solid #000000;
+    }
+    #Cabecera{
+        color: darkgreen;
+    }
+    label{
+        color: darkgreen;
+        width: 70%;
+        text-align: left;
+    }
+    .RadioChecklabel{
+        width: 40%;
+    }
+    input, textarea, select{
+        color: darkgreen;
+        width: 70%;
+    }
+    legend{
+        color: #000000;    
+    }
+    input[type="radio"], input[type="checkbox"]{
+        width: 20%;
+    }
+}
+@media screen and (max-width: 600px) {
+    #Container {
+        width: 80%;
+        margin:10px auto;
+        padding: 5px;
+        border: 1px solid #000000;
+    }
+    #Cabecera{
+        color: #000000;
+    }
+    label{
+        display: none;
+        color:#000000;
+    }    
+    .RadioChecklabel{
+        width: 50%;
+        display: block
+    }
+    input, textarea, select{
+        color: #000000;
+        width: 70%;
+    }
+    legend{
+        color: blue;
+        text-align: center;
+    }
+    input[type="radio"], input[type="checkbox"]{
+        width: 10%;
+    }
 }
